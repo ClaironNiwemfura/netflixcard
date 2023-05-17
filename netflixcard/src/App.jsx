@@ -1,10 +1,12 @@
-
 import './App.css'
+import './styles/card.css'
 import Rectangle from './Rectangle.jsx'
 import Square from './Squarec.jsx'
 import Vertical from './Vertical.jsx'
 import img1 from"./images/img1.jpg"
 import img2 from"./images/img2.avif"
+import {AiOutlineSearch } from "react-icons/ai";
+
 function App() {
   
   return (
@@ -13,8 +15,13 @@ function App() {
        <Vertical/>
       </div>
       <div className='right'>
-        <div>
-         <input type='search'/>
+        <div className='search'>
+          <div>
+           <AiOutlineSearch className='icons'/>
+          </div>
+          <div>
+           <input type='search'></input>
+         </div>
         </div>
         <h2 className='hh2'>Trending</h2>
         <div className='parent'>

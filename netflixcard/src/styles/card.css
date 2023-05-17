@@ -47,9 +47,13 @@
   display: block;
 }
 input{
-  width: 200px;
-  height: 40px;
+  width: 60vw;
+  height: 35px;
   border-radius: 20px;
+  border:none;
+  outline: none;
+  background:rgba(255,255,255,.4);
+  padding:0px 20px;
 }
 .vh{
   display: flex;

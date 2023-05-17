@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
     
 }
 body{
@@ -21,6 +22,20 @@ body{
     margin: 10px;
 
 }
+.icons{
+    border: 2px solid red;
+    transform: translate(50%,50%);
+    margin-left: 10%;
+}
+.search{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid red;
+    display: flex;
+    gap:30px;
+    
+  }
 
 .parent :nth-child(2){
     margin-left: 20px;
