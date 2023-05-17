@@ -1,0 +1,56 @@
+.rect{
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+
+  /* z-index: -1; */
+}
+.para {
+    display: flex;
+   margin-bottom: -40px;
+    /* justify-content: space-between; */
+}
+
+
+.p{
+    transform: translate(5%,-150%);
+    color: white;
+ 
+}
+.sq{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  /* margin: 20px; */
+}
+.bod{
+  border-radius: 10px;
+  border: 3px rgb(223, 20, 20);
+  height: 90vh;
+  width: 40px;
+  background: rgb(2, 8, 44);
+  margin: 20px;
+}
+.icob img{
+  height: 20px;
+  width: 20px;
+  display: block;
+  margin: 20px;
+  margin-left: 10px;
+}
+.ico{
+  margin-left: 10px;
+  margin-bottom: 40px;
+
+}
+.icob{
+  display: block;
+}
+input{
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+}
+.vh{
+  display: flex;
+}

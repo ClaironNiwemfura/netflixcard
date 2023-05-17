@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.body{
+    display: flex;
+}
+.parent{
+    /* position: absolute; */
+    /* top: 30px; */
+    /* left: 100px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.parent :nth-child(2){
+    margin-left: 20px;
+}
+
+.parent :nth-child(3){
+    margin-left: 20px;
+}
+.par2{
+    /* position: absolute; */
+    /* top: 350px; */
+    /* left: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.hh2{
+    color: white;
+    margin: 20px;
+    /* position: absolute; */
+    /* top: -20px; */
+    /* left: 100px; */
+}
+.hh1{
+    color: white;
+    margin: 20px;
+    /* position: absolute; */
+    /* top: 310px; */
+    /* left: 100px   */
+}
