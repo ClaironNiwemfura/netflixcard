@@ -5,7 +5,7 @@ import ico2 from "./images/retro.png"
 import ico3 from "./images/cal.png"
 import ico4 from "./images/foursquare.png"
 import ico5 from "./images/movie.png"
-
+import ico6 from "./images/wish.jpeg"
 function Vertical(){
     return(
      <div className="bod">
@@ -15,17 +15,17 @@ function Vertical(){
          </div>  
          <div className="icob"> 
          <Layout
-            ico ={ico4} link='/Retro'/>
+            ico ={ico4} link='/Four'/>
              <Layout
-           ico ={ico5} link='/Retro'/>
+           ico ={ico5} link='/Movie'/>
             <Layout
             ico ={ico2} link='/Retro'/>
          <Layout
-           ico ={ico1} link='/Retro'/>
+           ico ={ico1} link='/Favorites'/>
          
           </div>
-         <div>
-
+         <div className="prof">
+         
          </div>
      </div>
     )

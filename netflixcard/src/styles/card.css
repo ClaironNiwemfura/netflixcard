@@ -9,24 +9,35 @@
     display: flex;
    margin-bottom: -40px;
     /* justify-content: space-between; */
+    
 }
 
-
+ .para p{
+  font-size: 16px;
+}
 .p{
-    transform: translate(5%,-150%);
+    transform: translate(5%,-300%);
     color: white;
- 
+   
 }
 .sq{
-  height: 200px;
+  height: 150px;
   width: 200px;
   border-radius: 10px;
   /* margin: 20px; */
 }
+ .pa{
+  transform: translate(5%,250%);
+  color: white;
+}
+.square{
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
 .bod{
   border-radius: 10px;
   border: 3px rgb(223, 20, 20);
-  height: 90vh;
+  height: 95vh;
   width: 40px;
   background: rgb(2, 8, 44);
   margin: 20px;
@@ -47,7 +58,7 @@
   display: block;
 }
 input{
-  width: 60vw;
+  width: 70vw;
   height: 35px;
   border-radius: 20px;
   border:none;
@@ -58,3 +69,8 @@ input{
 .vh{
   display: flex;
 }
+
+/* .prof{
+  width: 20px;
+  height: 20px;
+} */

@@ -6,7 +6,14 @@ import Vertical from './Vertical.jsx'
 import img1 from"./images/img1.jpg"
 import img2 from"./images/img2.avif"
 import {AiOutlineSearch } from "react-icons/ai";
-
+import img3 from "./images/aladdin.jpeg"
+import img4 from "./images/avatar.jpeg"
+import img5 from "./images/onward.jpg"
+import img6 from "./images/strangew.jpeg"
+import img7 from "./images/luca.webp"
+import img8 from "./images/wish.jpeg"
+import img9 from "./images/inthe.webp"
+import img0 from "./images/soul.jpeg"
 function App() {
   
   return (
@@ -20,7 +27,7 @@ function App() {
            <AiOutlineSearch className='icons'/>
           </div>
           <div>
-           <input type='search'></input>
+           <input type='search' placeholder='search for movies or tv series'></input>
          </div>
         </div>
         <h2 className='hh2'>Trending</h2>
@@ -39,55 +46,67 @@ function App() {
             para1={"2019"}
             para2={".movie"}
             para3={".pg"}
-            hed={"Beyond Earth"}/>
+            hed={"Little mermaid"}/>
           </div>
           <div>
             <Rectangle
-            img={img1}
+            img={img3}
             para1={"2019"}
             para2={".movie"}
             para3={".pg"}
-            hed={"Beyond Earth"}/>
+            hed={"Aladdin"}/>
           </div>
        </div>
       <h2 className='hh1'>Recommended for you</h2>
       <div className='par2'>
         <Square
-        img={img1}
+        img={img9}
         para1={"2019"}
         para2={".movie"}
         para3={".pg"}
-        hed={"Beyond Earth"}/>
+        hed={"in the frame"}/>
         <Square
-        img={img1}
+        img={img6}
         para1={"2019"}
         para2={".movie"}
         para3={".pg"}
         hed={"Beyond Earth"}/>
          <Square
-        img={img1}
+        img={img7}
         para1={"2019"}
         para2={".movie"}
         para3={".pg"}
-        hed={"Beyond Earth"}/>
+        hed={"luca"}/>
          <Square
-        img={img1}
+        img={img0}
         para1={"2019"}
         para2={".movie"}
         para3={".pg"}
-        hed={"Beyond Earth"}/>
+        hed={"soul"}/>
+         <Square
+        img={img8}
+        para1={"2019"}
+        para2={".movie"}
+        para3={".pg"}
+        hed={"wish"}/>
+         <Square
+        img={img5}
+        para1={"2019"}
+        para2={".movie"}
+        para3={".pg"}
+        hed={"onward"}/>
         <Square
-        img={img1}
+        img={img6}
         para1={"2019"}
         para2={".movie"}
         para3={".pg"}
-        hed={"Beyond Earth"}/>
+        hed={"strange world"}/>
         <Square
-        img={img1}
+        img={img4}
         para1={"2019"}
         para2={".movie"}
         para3={".pg"}
-        hed={"Beyond Earth"}/>
+        hed={"Avatar"}/>
       </div>
     </div>
     </div>

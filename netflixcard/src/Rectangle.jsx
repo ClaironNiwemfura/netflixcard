@@ -1,8 +1,12 @@
 import "./styles/card.css"
+import fav from "./images/favorites.png"
 function Rectangle(prop){
     return(
      <div>
             <img src={prop.img}className="rect"/> 
+            <div className="favs">
+              <img src ={fav} />
+            </div>
             <div className="p"> 
               <div className="para">
                 <p>{prop.para1}</p>
