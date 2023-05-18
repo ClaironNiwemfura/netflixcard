@@ -13,7 +13,7 @@ function Square(prop){
         <p>{prop.para2}</p>
         <p>{prop.para3}</p>
         </div>
-        <h2>{prop.hed}</h2>
+        <h4>{prop.hed}</h4>
 
         </div> 
      </div>

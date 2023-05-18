@@ -107,6 +107,18 @@ function App() {
         para2={".movie"}
         para3={".pg"}
         hed={"Avatar"}/>
+         <Square
+        img={img6}
+        para1={"2019"}
+        para2={".movie"}
+        para3={".pg"}
+        hed={"Beyond Earth"}/>
+         <Square
+        img={img7}
+        para1={"2019"}
+        para2={".movie"}
+        para3={".pg"}
+        hed={"luca"}/>
       </div>
     </div>
     </div>

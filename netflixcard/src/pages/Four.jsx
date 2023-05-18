@@ -6,7 +6,7 @@ export default function Four() {
     <>
     <Mainlayout>
     <div>
-       <p> four page</p>
+       <p color='white'> four page</p>
     </div>
     </Mainlayout>
     </>
